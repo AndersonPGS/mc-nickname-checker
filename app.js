@@ -1,5 +1,5 @@
-const verifyUsername = require('./functions/verifyUsername');
-const nickGenerator = require('./functions/nickGenerator');
+const verifyUsername = require('./src/functions/verifyUsername');
+const nickGenerator = require('./src/functions/nickGenerator');
 
 async function main() {
   const generator = nickGenerator();

@@ -8,7 +8,7 @@ const YELLOW = '\x1b[33m';
 const RESET = '\x1b[0m';
 
 function addAvailableNick (username) {
-  const filePath = path.join(__dirname, '..', 'available.txt');
+  const filePath = path.join(__dirname, '..', '..', 'available.txt');
 
   const nickWithBreakLine = username + '\n'
 
