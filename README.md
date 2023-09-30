@@ -15,8 +15,12 @@
   "minNumber": Quantidade mínima caracteres para cada nick (default: 3, gerando nicks com no mínimo 3 caracteres)
 
   "maxNumber": Quantidade mínima caracteres para cada nick (default: 4, gerando nicks com no máximo 4 caracteres)
+
+  "search_ms": Velocidade em milissegundos de execução em cada busca (default: 500, pode variar dependendo do computador/internet, teste.)
   ```
-4. Por fim, basta digitar: `npm run lite` para iniciar a versão lite.
+4. Por fim, basta digitar: `npm run lite` para iniciar a versão lite ou `npm run high` para iniciar a versão de alta velocidade (pode conter bugs).
+
+*A versão HIGH, mostra no console apenas os nicks disponíveis e talvez não consiga escrever no `available.txt` o nick disponível, então é necessário ficar de olho no console*
 
 ## Total de Combinações
 
