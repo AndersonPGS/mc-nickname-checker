@@ -31,7 +31,7 @@ async function verifyUsername(username) {
             } else if (divText === 'Unavailable') {
               console.log(RED + `[${username}] Username Unavailable` + RESET);
             } else {
-              console.log(YELLOW  + `[${username}] Username ${text.trim()}` + RESET);
+              console.log(YELLOW  + `[${username}] Username: ${divText}` + RESET);
             }
           } else {
             console.log(RED + `[${username}] Não foi possível verificar o status do nick.` + RESET);
