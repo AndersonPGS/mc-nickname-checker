@@ -11,10 +11,10 @@ const RESET = '\x1b[0m';
 
 async function verifyUsername(username) {
   return new Promise((resolve, reject) => {
+    console.log(YELLOW  + `[${username}] Verificando...` + RESET);
     axios.get(`https://mcname.info/pt/search?q=${username}`)
       .then((response) => {
         if (response.status === 200) {
-          console.log(YELLOW  + `[${username}] Verificando...` + RESET);
           const html = response.data;
           const dom = new JSDOM(html);
           const document = dom.window.document;
