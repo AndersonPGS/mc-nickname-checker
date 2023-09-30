@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "node ./lite/app.js"
+    "lite": "node ./lite/app.js",
+    "high": "node ./high/app.js"
   },
   "author": "",
   "license": "ISC",

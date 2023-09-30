@@ -1,5 +1,6 @@
 {
   "characters": "abcdefghijklmnopqrstuvwxyz",
   "minNumber": 3,
-  "maxNumber": 4
+  "maxNumber": 4,
+  "search_ms": 400
 }
