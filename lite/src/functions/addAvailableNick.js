@@ -7,8 +7,8 @@ const GREEN = '\x1b[32m';
 const YELLOW = '\x1b[33m';
 const RESET = '\x1b[0m';
 
-function addAvailableNick (username) {
-  const filePath = path.join(__dirname, '..', '..', 'available.txt');
+function addAvailableNick(username) {
+  const filePath = path.join(__dirname, '..', '..', '..', 'available.txt');
 
   const nickWithBreakLine = username + '\n'
 
@@ -20,5 +20,7 @@ function addAvailableNick (username) {
     }
   })
 }
+
+addAvailableNick("apgs")
 
 module.exports = addAvailableNick

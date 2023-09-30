@@ -1,4 +1,4 @@
-const config = require('../../config.json');
+const config = require('../../../config.json');
 
 async function* nickGenerator() {
   const characters = config.characters;

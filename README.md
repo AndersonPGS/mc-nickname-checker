@@ -16,7 +16,7 @@
 
   "maxNumber": Quantidade mínima caracteres para cada nick (default: 4, gerando nicks com no máximo 4 caracteres)
   ```
-4. Caso tenha completado a etapa de configurações, basta digitar: `npm run start`
+4. Por fim, basta digitar: `npm run lite` para iniciar a versão lite.
 
 ## Total de Combinações
 
