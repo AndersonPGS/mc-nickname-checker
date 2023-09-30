@@ -9,9 +9,13 @@
 1. Instale o Node.js
 2. Abra a pasta do projeto e digite `npm i`, para instalar as dependências necessárias.
 3. Caso necessário altere o arquivo `config.json` da maneira que desejar:
-  `characters: Caracteres que ele deverá utilizar para gerar os nicks (default: abcdefghijklmnopqrstuvwxyz) para gerar apenas com as letras do alfabeto, pode ser adicionado números também`
-  `minNumber: Quantidade mínima caracteres para cada nick (default: 3, gerando nicks com no mínimo 3 caracteres)`
-  `maxNumber: Quantidade mínima caracteres para cada nick (default: 4, gerando nicks com no máximo 4 caracteres)`
+  ```js
+  "characters": Caracteres que ele deverá utilizar para gerar os nicks (default: abcdefghijklmnopqrstuvwxyz) para gerar apenas com letras, pode ser adicionado números também.
+
+  "minNumber": Quantidade mínima caracteres para cada nick (default: 3, gerando nicks com no mínimo 3 caracteres)
+
+  "maxNumber": Quantidade mínima caracteres para cada nick (default: 4, gerando nicks com no máximo 4 caracteres)
+  ```
 4. Caso tenha completado a etapa de configurações, basta digitar: `npm run start`
 
 ## Total de Combinações
