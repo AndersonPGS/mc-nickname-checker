@@ -20,7 +20,8 @@
   ```
 4. Por fim, basta digitar: `npm run lite` para iniciar a versão lite ou `npm run high` para iniciar a versão de alta velocidade (pode conter bugs).
 
-*A versão HIGH, mostra no console apenas os nicks disponíveis e talvez não consiga escrever no `available.txt` o nick disponível, então é necessário ficar de olho no console*
+*[HIGH] A versão HIGH, mostra no console apenas os nicks disponíveis e talvez não consiga escrever no `available.txt` o nick disponível, então é necessário ficar de olho no console*
+*[HIGH] Para saber se está funcionando na versão high, execute o projeto `npm run high` e verifique o arquivo `checked.txt`, caso esteja sendo adicionado nicks nesse arquivo, significa que está funcionando*
 
 ## Total de Combinações
 
